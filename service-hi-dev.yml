@@ -10,7 +10,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
-name: huangcong-config第二次修改
+name: huangcong-config测试第三次修改
 #security:
 #  user:
 #    name: admin
