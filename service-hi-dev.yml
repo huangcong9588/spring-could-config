@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: service-hi
+  #数据源
+  datasource:
+    url: jdbc:mysql://192.169.1.211:3306/db_paws_main?characterEncoding=utf-8&allowMultiQueries=true
+    username: test
+    password: test  
 eureka:
   instance:
     prefer-ip-address: true
