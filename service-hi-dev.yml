@@ -17,3 +17,13 @@ name: huangcong-config测试第三次修改
 #    password: admin
 #  basic:
 #    enabled: false
+#公共固定配置
+mybatis:
+   config-location: classpath:mybatis.xml
+
+#pagehelper分页插件
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
